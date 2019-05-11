@@ -18,6 +18,7 @@
 		// 풍향
 		const dataK3 = data.feed.entry.find((entry) => entry.title.$t == 'K3').content.$t
 		document.getElementById('wind1').innerHTML = "현재 풍향: " + dataK3
+		
 	}
 </script>
 <script src="https://spreadsheets.google.com/feeds/cells/1JFXuZ-9FBg9aJEU1HOopKSLl3dnD2NI6UJ7XtBr2h3Q/2/public/basic?alt=json-in-script&callback=onDataLoaded"></script>
